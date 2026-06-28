@@ -132,6 +132,16 @@
     display: none;
   }
 
+  .categories span:not(.dot) {
+    transition: color 0.2s ease, font-weight 0.2s ease;
+    cursor: default;
+  }
+
+  .categories span:not(.dot):hover {
+    color: var(--text-primary);
+    font-weight: 800;
+  }
+
   .email-button {
     display: inline-block;
     background-color: transparent;
